@@ -25,7 +25,7 @@ ascii_banner = """
        ▀█▀ █▀▀ █▀█ █▀▄▀█ █░█ ▀▄▀   █░█ █▄█ █▀▄ █▀█ ▄▀█
 ░█░ ██▄ █▀▄ █░▀░█ █▄█ █░█   █▀█ ░█░ █▄▀ █▀▄ █▀█
 
-         Created By : iamunixtz On Github
+         Created By : Vishwajitji On Github
 """.strip()
 
 print(Fore.GREEN + ascii_banner)
@@ -35,7 +35,7 @@ print(Fore.CYAN + "[+] Packages Installation" + Style.RESET_ALL)
 
 time.sleep(10)
 
-github_link = "https://github.com/iamunixtz/Termux-Hydra/"
+github_link = "https://github.com/Vishwajitji/Password-creck/"
 subprocess.run(['termux-open-url', github_link])
 
 subprocess.run(['bash', 'TermuxHydra.sh'])
