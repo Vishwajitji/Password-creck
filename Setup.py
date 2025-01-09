@@ -33,11 +33,11 @@ print(Style.RESET_ALL)
 
 print(Fore.CYAN + "[+] Packages Installation" + Style.RESET_ALL)
 
-time.sleep(4)
+time.sleep(04)
 
 github_link = "https://github.com/Vishwajitji/Password-creck"
 subprocess.run(['termux-open-url', github_link])
 
-subprocess.run(['bash', 'Password-creck.sh'])
+subprocess.run(['bash','Password-creck.sh'])
 print("Thanks MrPassword & Mrsystem For Script")
-time.sleep(10)
+time.sleep(04)
